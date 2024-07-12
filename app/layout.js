@@ -1,7 +1,6 @@
 import './style.css'
 
 export default function layout({children}) {
-
   return (
     <html>
       <head>
@@ -13,5 +12,4 @@ export default function layout({children}) {
       </body>
     </html>
   )
-
 }

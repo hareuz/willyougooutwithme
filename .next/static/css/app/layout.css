@@ -1,0 +1,155 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[3]!./app/style.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+#app {
+  color: white;
+  display: grid;
+  font: 900 3rem Jua;   
+  height: 100vh;
+  margin: 0;
+}
+
+/* Add Minecraft-like background to the body */
+body {
+  background-image: url('/artistic-pixel-art-8-bit-minimalist-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.box {
+  display: grid;
+  grid-gap: 10px;
+  gap: 10px;
+  margin: auto;
+  place-items: center;
+}
+
+.gif {
+  height: 350px;
+}
+
+.btns {
+  display: flex;
+  gap: 40px;
+  width: 60%;
+}
+
+.yes {
+  margin-right: auto;
+}
+
+.no {
+  transition: .4s all;
+}
+
+button {
+  background: #59c9e8;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font: 900 2rem Jua;   
+  padding: 15px 30px;
+}
+
+.spotify {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.spotify-icon {
+  font-size: 55px; /* Ensure the icon is larger */
+  transition: transform 0.3s;
+}
+
+.spotify-icon:hover {
+  transform: scale(1.2);
+}
+
+.spotify-player {
+  display: none; /* Hide the player initially */
+  position: absolute;
+  bottom: 60px; /* Adjust as needed */
+  left: 10px;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 35px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.custom-checkbox .checkmark {
+  width: 25px;
+  height: 25px;
+  background-color: #d1c4e9; /* Skin purple color */
+  border-radius: 50%; /* Make it oval */
+  margin-right: 10px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-color: #9575cd; /* Darker skin purple color */
+}
+
+.custom-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+}
+
+.custom-input {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 25px; /* Make it oval */
+  border: 1px solid #ccc;
+  background-color: #d1c4e9; /* Skin purple color */
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+  border-color: #9575cd; /* Darker skin purple color */
+}
+
+/* Add this new class for the input elements */
+.oval-input {
+  border-radius: 25px; /* Make it oval */
+  border: 1px solid #ccc;
+  background-color: #f0e4ff; /* Prettier color */
+  color: #333;
+  padding: 10px 20px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.oval-input:focus {
+  border-color: #b39ddb; /* Darker shade for focus */
+}
+
