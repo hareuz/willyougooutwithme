@@ -13,13 +13,14 @@ export default function Page() {
 
   const ideas = [
     'Visit to a graveyard',
-    'Passenger princess duty (gloating n music involved)',
+    'Passenger princess duty & Grocery shopping (gloating n music involved)',
     'Eat to bite or whatever I skipped some eng classes',
-    'Ghost (Dont u date)'
+    'Ghost (Dont u dare)'
   ];
 
   const songs = [
-    "https://open.spotify.com/embed/track/6WmIyn2fx1PKQ0XDpYj4VR?utm_source=generator"
+    "https://open.spotify.com/embed/track/6WmIyn2fx1PKQ0XDpYj4VR?utm_source=generator",
+    "https://open.spotify.com/embed/track/6jgkEbmQ2F2onEqsEhiliL"
   ];
 
   const sendEmail = (e) => {
@@ -58,7 +59,7 @@ export default function Page() {
 
   return (
     <div className='box'>
-      <img alt='yayyy' className='gif' src='/chowder.gif' />
+      <img alt='yayyy' className='gif' src='/fleabag.gif' />
       <h1>{'Yayyy~ lets plan <3'}</h1>
       <p>{'I have some fun ideas:'}</p>
       <ul style={{ listStyleType: 'none', padding: 0 }}>

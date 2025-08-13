@@ -13,7 +13,7 @@ export default function page() {
   const [currentSong, setCurrentSong] = useState(''); // State to store the current song URL
 
   const songs = [
-    "https://open.spotify.com/embed/track/1xLoBwOKMtCq3tALgb8F6A?utm_source=generator"
+    "https://open.spotify.com/embed/track/0YJ9FWWHn9EfnN0lHwbzvV?utm_source=generator"
   ];
 
   const updteImg = (im) => {
@@ -25,7 +25,7 @@ export default function page() {
     const y = Math.random() * 90;
 
     $p({x: `${x}%`, y: `${y}%`});
-    updteImg('chowder-crying');
+    updteImg('devastated');
   };
 
   const dontdoit = () => {
