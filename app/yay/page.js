@@ -13,9 +13,10 @@ export default function Page() {
 
   const ideas = [
     'Visit to a graveyard',
-    'Passenger princess duty & Grocery shopping (gloating n music involved)',
-    'Eat to bite or whatever I skipped some eng classes',
-    'Ghost (Dont u dare)'
+    'Passenger princess duty & Stationary shopping (including rope)',
+    'Bite to eat (food or each other)',
+    'Explore more BDSM kinks',
+    'Golden Shower Practice'
   ];
 
   const songs = [
